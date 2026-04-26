@@ -1,0 +1,34 @@
+{
+  "name": "saasrival-skill",
+  "version": "0.1.0",
+  "description": "Claude Code skill for SaaSRival — decode .saasrival keyfiles and build competitor clones",
+  "keywords": [
+    "claude-code",
+    "claude-skill",
+    "saas",
+    "competitive-intelligence",
+    "ai-agent",
+    "cursor",
+    "saasrival"
+  ],
+  "homepage": "https://saasrival.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sandstack/saasrival-skill.git"
+  },
+  "license": "MIT",
+  "bin": {
+    "saasrival-skill": "./bin/install.js"
+  },
+  "files": [
+    "bin/",
+    "CLAUDE.md",
+    "examples/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

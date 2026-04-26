@@ -2,32 +2,32 @@
 
 Turn competitor intelligence into a shippable build plan — inside Claude Code.
 
-## What it does
-
-1. You download a `.saasrival` keyfile from [SaaSRival](https://saasrival.com) for any brand
-2. Drop it into your project folder
-3. Open Claude Code — it reads the file and loads the brand's competitive data automatically
-4. Ask it anything: teardown, PRD, schema, marketing copy, security review, launch checklist
-
-No API calls. No setup beyond install. Works fully offline.
-
-## Install — 2 steps
-
-**Option A — project level** (one project only)
-
-Copy `CLAUDE.md` from this repo into your project root:
+## Install
 
 ```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/sandstack/saasrival-skill/master/CLAUDE.md
+npx saasrival-skill install
 ```
 
-**Option B — global** (works in every project automatically)
+Asks whether you want project-level or global install, then sets everything up. That's it.
 
-Append to your global Claude Code config:
+**Manual alternatives:**
 
 ```bash
+# Project only
+curl -o CLAUDE.md https://raw.githubusercontent.com/sandstack/saasrival-skill/master/CLAUDE.md
+
+# Global (every project)
 curl https://raw.githubusercontent.com/sandstack/saasrival-skill/master/CLAUDE.md >> ~/.claude/CLAUDE.md
 ```
+
+## What it does
+
+1. Download a `.saasrival` keyfile from [SaaSRival](https://saasrival.com) for any brand
+2. Drop it into your project folder
+3. Run `claude` — it detects the file, loads the brand's competitive intelligence, and greets you
+4. Ask for anything: teardown, PRD, schema, marketing copy, security review, launch checklist
+
+No API calls. No configuration. Works fully offline.
 
 ## Usage
 
