@@ -18,7 +18,7 @@ No API calls. No setup beyond install. Works fully offline.
 Copy `CLAUDE.md` from this repo into your project root:
 
 ```bash
-curl -o CLAUDE.md https://raw.githubusercontent.com/saasrival/saasrival-skill/main/CLAUDE.md
+curl -o CLAUDE.md https://raw.githubusercontent.com/sandstack/saasrival-skill/master/CLAUDE.md
 ```
 
 **Option B — global** (works in every project automatically)
@@ -26,7 +26,7 @@ curl -o CLAUDE.md https://raw.githubusercontent.com/saasrival/saasrival-skill/ma
 Append to your global Claude Code config:
 
 ```bash
-curl https://raw.githubusercontent.com/saasrival/saasrival-skill/main/CLAUDE.md >> ~/.claude/CLAUDE.md
+curl https://raw.githubusercontent.com/sandstack/saasrival-skill/master/CLAUDE.md >> ~/.claude/CLAUDE.md
 ```
 
 ## Usage
