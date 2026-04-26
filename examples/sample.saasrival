@@ -1,0 +1,71 @@
+{
+  "version": "1",
+  "generated": "2026-04-26",
+  "source": "saasrival.com",
+  "brand": {
+    "name": "Opal",
+    "domain": "opal.so",
+    "category": "productivity / focus",
+    "platform": "ios",
+    "description": "Screen time management app that blocks distracting apps using iOS Screen Time API. Targets adults with ADHD and focus issues."
+  },
+  "metrics": {
+    "mrr": 246000,
+    "mrr_confidence": "medium",
+    "monthly_visits": 247000,
+    "traffic_rank": 124500,
+    "total_ads": 238,
+    "active_ads": 50,
+    "weekly_spend_usd": null,
+    "primary_platform": "facebook",
+    "running_days": 233
+  },
+  "audience": {
+    "age_top": "25-34 (42%)",
+    "gender": { "male": 0.50, "female": 0.49 },
+    "top_markets": { "GB": 0.97, "US": 0.01, "IE": 0.01 }
+  },
+  "ads": [
+    {
+      "reach": 486000,
+      "copy": "Struggling with phone addiction? Opal blocks distracting apps so you can focus on what matters. Try free.",
+      "status": "INACTIVE",
+      "date": "2025-01"
+    },
+    {
+      "reach": 320000,
+      "copy": "I used to spend 6 hours on my phone. Opal cut it to 90 minutes. My productivity tripled.",
+      "status": "INACTIVE",
+      "date": "2025-02"
+    },
+    {
+      "reach": 180000,
+      "copy": "ADHD adults: this app finally works. Opal blocks the apps your brain can't resist. Free trial.",
+      "status": "ACTIVE",
+      "date": "2026-01"
+    }
+  ],
+  "tech_stack": {
+    "payment": ["RevenueCat", "Stripe"],
+    "analytics": ["Amplitude", "PostHog"],
+    "hosting": ["AWS"],
+    "auth": ["Firebase"],
+    "monitoring": ["Sentry"]
+  },
+  "team": {
+    "github_org": "opal-app",
+    "size_estimate": 9,
+    "mrr_signal": 246000
+  },
+  "intelligence": {
+    "platforms_absent": ["tiktok", "youtube", "linkedin"],
+    "geo_gaps": ["US", "CA", "AU", "DE"],
+    "vulnerabilities": [
+      "97% UK concentration — entire English-speaking market unserved",
+      "No TikTok presence despite ADHD creator economy on that platform",
+      "iOS-only — Android users (~70% market) fully unserved",
+      "No free tier — $9.99/mo paywall blocks casual discovery",
+      "Requires Apple Screen Time entitlement — 2-6 week App Store review risk"
+    ]
+  }
+}
